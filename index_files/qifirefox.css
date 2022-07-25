@@ -1,0 +1,20 @@
+﻿/*Cấu hình cho firefox */
+@-moz-document url-prefix() {
+    .qiheightTop {
+        overflow-x: hidden;
+        overflow-y: hidden;
+    }
+
+    .qiContainer_border.qimaxheighttop {
+        overflow-y: hidden;
+    }
+
+    .mq13 {
+        overflow-y: hidden;
+    }
+
+    .noidungthongbao {
+        overflow-y: hidden;
+        overflow-x: hidden;
+    }
+}
