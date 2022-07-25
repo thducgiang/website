@@ -1,0 +1,1925 @@
+﻿
+/*section {
+    position: relative;
+    width: 40px;
+    height: 40px;
+}
+
+    section::after {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        content: '';
+        width: 40px;
+        height: 40px;
+    }*/
+
+
+#section04 {
+    background: #2AB7FF
+}
+
+.nav-link2 {
+    color: #23313f;
+    font-weight: 500 !important;
+}
+
+.qiheightTop {
+    height: 430px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.demo a {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    z-index: 2;
+    display: inline-block;
+    -webkit-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+    color: #fff;
+    font: normal 400 20px/1 'Josefin Sans', sans-serif;
+    letter-spacing: .1em;
+    text-decoration: none;
+    transition: opacity .3s;
+}
+
+    .demo a:hover {
+        opacity: .5;
+    }
+
+#section04 a span {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 15px;
+    height: 15px;
+    margin-left: -7px;
+    border-left: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    -webkit-transform: rotate(135deg);
+    transform: rotate(135deg);
+    -webkit-animation: sdb04 2s infinite;
+    animation: sdb04 2s infinite;
+    box-sizing: border-box;
+}
+
+.qibootomSpace {
+    border-bottom: 1px dotted #ddd;
+    padding-bottom: 10px;
+}
+
+    .qibootomSpace:last-child {
+        border-bottom: 0px dotted #3c3c3c;
+    }
+
+@-webkit-keyframes sdb04 {
+    0% {
+        -webkit-transform: rotate(135deg) translate(0, 0);
+    }
+
+    20% {
+        -webkit-transform: rotate(135deg) translate(10px, 10px);
+    }
+
+    40% {
+        -webkit-transform: rotate(135deg) translate(0, 0);
+    }
+}
+
+@keyframes sdb04 {
+    0% {
+        transform: rotate(135deg) translate(0, 0);
+    }
+
+    20% {
+        transform: rotate(135deg) translate(-10px, 10px);
+    }
+
+    40% {
+        transform: rotate(135deg) translate(0, 0);
+    }
+}
+
+.video-fluid {
+    width: 100%;
+}
+
+
+
+.qiContainer_border.qimaxheighttop {
+    max-height: 410px;
+    overflow-y: scroll;
+}
+
+.qispace {
+    width: 100%;
+    height: 1px;
+    color: #efebea
+}
+
+.qiwithqctraiphai {
+    width: 125px;
+}
+
+.qibgvideohome {
+    background: #1a1818;
+    bottom: 0px;
+    width: 100%;
+    padding: 5px;
+    right: 0px;
+    left: 0px;
+    opacity: 70%;
+}
+
+    .qibgvideohome > a {
+        color: #fff !important;
+    }
+
+.pos-vi {
+    display: none;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+
+a:hover {
+    cursor: pointer;
+    text-decoration: none;
+    color: #004580;
+}
+
+ol, ul, li {
+    list-style: none outside none;
+}
+
+a.s_openmedia:hover {
+    color: #004580;
+}
+
+.qihome_tieude {
+    color: #e20000;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 15px;
+    margin-bottom: 0px;
+    padding-left: 10px;
+}
+
+.qiiconnew {
+    width: 30px !important;
+    height: 16px !important;
+}
+
+.qihome_tieudebg {
+    padding: 7px 10px;
+    width: 100%;
+    /*box-shadow: 0px 1px 0 0 #01579b;*/
+    background-image: linear-gradient(to top, #dddddd, #ffffff);
+}
+
+
+.qiContainer {
+    width: 100%;
+}
+
+.qiContainer_border {
+    overflow: hidden;
+    border: 1px solid #dcdcdc;
+    width: 100%;
+}
+
+
+    .qiContainer_border ul li a {
+        display: inline-block;
+        text-decoration: none;
+        font-size: 13px;
+        line-height: 21px;
+        text-align: left;
+        font-weight: 600;
+    }
+
+    .qiContainer_border ul li {
+        padding: 5px;
+        border-bottom: 1px solid #ddd;
+        display: inline-block;
+        width: 100%;
+        max-height: 200px;
+        overflow: hidden;
+        text-align: justify;
+        line-height: 20px;
+    }
+
+        .qiContainer_border ul li:last-child {
+            border-bottom: 0px dotted #ddd;
+        }
+
+
+
+i.fa-angle-right {
+    padding-right: 5px;
+}
+
+#MainContent {
+    padding-top: 10px;
+    min-height: 300px;
+    position: relative;
+    padding-bottom: 10px;
+    background: #fff;
+    box-shadow: 0px 2px 4px #ccc;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-bottom: 10px;
+    padding-bottom: 10px !important;
+}
+
+.qifontbold-1 {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.qifontbold-2 {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+
+
+
+
+@media all and (min-width: 992px) {
+    .navbar .nav-item .dropdown-menu {
+        display: none;
+    }
+
+    .navbar .nav-item:hover .nav-link {
+        color: #fff;
+    }
+
+    .navbar .nav-item:hover .dropdown-menu {
+        display: block;
+    }
+
+    .navbar .nav-item .dropdown-menu {
+        margin-top: 0;
+    }
+
+    .qibgtop1 {
+    }
+
+        .qibgtop1 > ul.dropdown-menu {
+            z-index: 99999999;
+        }
+
+        .qibgtop1 > ul > li > a.nav-link {
+            color: #23313f !important;
+        }
+
+
+
+    /*  #banner {
+        background-image: url('/Images/bgbannerxanhdatroi.jpg');
+        background-repeat: repeat;
+    }*/
+}
+
+.qimenu {
+    z-index: 1;
+}
+
+.qiMenuTime {
+    background-image: url("/Images/bgmenuchuchay.png");
+    background-repeat: repeat;
+    clear: both;
+    height: 30px;
+    border-bottom: 1px #EBE3DA solid;
+}
+
+.menuTime {
+    color: #333;
+    float: left;
+    font-size: 11px;
+    font-weight: normal;
+    padding-top: 8px;
+}
+
+.qiChuChay {
+    float: left;
+    font-size: 13px;
+    font-weight: bold;
+    padding-top: 7px;
+}
+
+/* Footer*/
+#CenterFooter {
+    background-position: center 0%;
+    padding: 1.5em 0 2em;
+    min-height: 140px;
+    width: 100% !important;
+    background-size: cover !important;
+    background-color: transparent;
+   /* background-image: url('/Images/bgfooterDefault.png');
+    background-repeat: no-repeat;*/
+    background-attachment: scroll;
+}
+
+#CenterFootermb {
+    padding: 1.5em 0 2em;
+    width: 100% !important;
+    background-position-x: center !important;
+    background-size: cover !important;
+}
+
+.LogoBotoom {
+    background: url('/Images/footer-separator.png') no-repeat top right;
+    float: left;
+    padding-right: 40px;
+    margin: -5px 20px 0 20px;
+}
+/*
+    Menu dọc
+*/
+.wrapper {
+    display: flex;
+    width: 100%;
+    align-items: stretch;
+}
+
+.danhmuctitledoc {
+    padding: 9px 11px;
+    background-image: url('/Images/bgmenutieude.png');
+    color: #cc0000;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
+    width: 100%;
+}
+
+ul.qimenudoc {
+    padding: 0;
+    list-style: none;
+    width: 100%;
+    clear: both;
+    display: block;
+}
+
+    ul.qimenudoc li {
+        font-size: 14px;
+        border-bottom: 1px solid #e5e5e5;
+        position: relative;
+        width: 100%;
+        box-sizing: border-box;
+        vertical-align: sub;
+        clear: both;
+    }
+
+
+
+        ul.qimenudoc li a {
+            text-decoration: none;
+            padding: 10px 13px 10px 16px;
+            display: block;
+            height: 100%;
+            box-sizing: border-box;
+            font-weight: normal;
+            font-size: 14px;
+            color: #ab1818;
+           
+        }
+
+            ul.qimenudoc li a:hover {
+                transition: 300ms all;
+                color: #cc0000;
+            }
+
+    ul.qimenudoc .qilist .qiitems a {
+        padding: 7px 10px 7px 25px;
+        font-weight:normal !important;
+    }
+
+.menucap0 a {
+    padding-left: 25px !important;
+}
+
+.menucap1 a {
+    padding-left: 30px !important;
+}
+
+.menucap2 a {
+    padding-left: 35px !important;
+}
+
+ul.qimenudoc .qilist .qiitems a:hover {
+    color: #cc0000;
+    transition: 300ms all;
+}
+
+ul.qimenudoc .list1:last-child {
+    border-bottom: none;
+}
+
+
+ul.qimenudoc .active > .qiitems {
+    display: block;
+    background: #23313f;
+    padding: 0px;
+    height: auto;
+    color: #fff;
+    transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+    transition: all 200ms;
+    clear: both;
+    float: left;
+    width: 100%;
+}
+
+    ul.qimenudoc .active > .qiitems li {
+        padding: 0px;
+        border-bottom: 1px solid #e5e5e5;
+        list-style: none;
+        background: #fff !important;
+    }
+
+        ul.qimenudoc .active > .qiitems li:last-child {
+            padding-bottom: 0px;
+        }
+
+        ul.qimenudoc .active > .qiitems li a {
+            color: #1e1e1e;
+        }
+
+    ul.qimenudoc .active > .qiitems .active > .qiitems {
+        background-color: #2f4b67;
+    }
+
+ul.qimenudoc .active > a {
+    color: #cc0000;
+    font-weight: bold;
+}
+
+.qiitems li:first-child {
+    border-top: 1px solid #e5e5e5;
+}
+
+ul.qimenudoc .active .qilist {
+    background: #697d92;
+}
+
+    ul.qimenudoc .active .qilist a {
+        padding: 15px 0px 15px 45px;
+    }
+
+
+.qimenudoc li:nth-child(odd) {
+    box-shadow: 0px 1px 0 0 rgba(209, 209, 209, 0.72);
+    background-color: #f4f2ed;
+    min-height: 36px;
+}
+
+.qimenudoc li:nth-child(even) {
+    box-shadow: 0px 1px 0 0 rgba(209, 209, 209, 0.72);
+    background-color: #f7f7f7;
+    min-height: 36px;
+}
+
+#sidebar {
+    width: 100%;
+}
+
+a[data-toggle="collapse"] {
+    position: relative;
+}
+
+#sidebar ul li.active > a, a[aria-expanded="true"] {
+    color: #fff;
+}
+
+.qitonggle::after {
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+}
+
+.qitonggle::after {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    margin-left: .255em;
+    vertical-align: .255em;
+    content: "";
+    border-top: .3em solid;
+    border-right: .3em solid transparent;
+    border-bottom: 0;
+    border-left: .3em solid transparent;
+}
+/*Khối tin tiêu điểm */
+.rightitem.van-ban2 {
+    height: 459px;
+}
+
+.Content_right > div {
+    margin: 0 0 9px;
+}
+
+.van-ban2, .van-ban {
+    border: 1px solid #f0f0f0;
+    border-top-color: rgb(240, 240, 240);
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-top: none !important;
+}
+
+.tieudethongbaoright {
+    background-image: url('/Images/bgmenutieude.png');
+    background-repeat: repeat-x;
+    padding: 0 !important;
+    margin-top: 10px;
+}
+
+.TieuDeThongBao {
+    font-size: 18px;
+    font-weight: bold;
+    padding: 12px;
+    color: #cc0000;
+    line-height: 37px;
+}
+
+.xem-them {
+    float: right;
+    padding: 5px 10px 0;
+    font-size: 12px;
+    color: #000;
+}
+
+.mq135 {
+    overflow: hidden;
+}
+
+    .mq135 ul {
+        max-height: 420px;
+        padding-left: 0px;
+        overflow: hidden;
+    }
+
+.rightitem div ul li {
+    padding: 11px 10px;
+}
+
+.Content_right div ul li {
+    display: block;
+    padding: 10px;
+}
+
+    .Content_right div ul li a {
+        display: inline-block;
+        text-decoration: none;
+        font-size: 13px;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 22px;
+        letter-spacing: normal;
+        text-align: left;
+    }
+
+
+
+.rightitem div ul li:nth-child(2n) {
+    background: #F7F7F7;
+}
+
+/*Hiển thị thời gian*/
+.time {
+    color: #888888;
+    font-size: 11px;
+    padding-left: 3px;
+}
+
+.fas.fa-clock {
+    padding-right: 3px;
+}
+
+/*Thông báo thư mời*/
+.thongbao, .thumoi, .van-ban {
+    margin-top: 10px !important;
+}
+
+.thongbao {
+    float: left;
+}
+
+.tieudethongbao {
+    background-image: url('/Images/bgmenutieude.png');
+    background-repeat: repeat-x;
+    height: 37px;
+    border-left: 1px solid #f0f0f0;
+    border-right: 1px solid #f0f0f0;
+}
+
+.noidungthongbao {
+    display: block;
+    border: 1px solid #f0f0f0;
+    border-top-width: 1px;
+    clear: both;
+    border-top-width: 0px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: 600px;
+}
+
+.itemthongbao:first-child {
+    border-top: none;
+}
+
+.itemthongbao {
+    border-bottom: 1px solid #f0f0f0;
+    border-top: 1px solid #fff;
+    max-height: 410px;
+    overflow: hidden;
+    padding: 5px 10px;
+}
+
+.titleItem {
+    margin-top: 6px;
+}
+
+    .titleItem a {
+        font-size: 13px;
+        line-height: 20px;
+        text-decoration: none;
+        font-weight: 600;
+    }
+
+
+
+/*Khối văn bản*/
+.mq13 {
+    padding: 0px !important;
+    height: 600px;
+    overflow-y: scroll;
+}
+/* Slider */
+.slick-slider {
+    position: relative;
+    display: block;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-touch-callout: none;
+    -khtml-user-select: none;
+    -ms-touch-action: pan-y;
+    touch-action: pan-y;
+    -webkit-tap-highlight-color: transparent;
+    padding-left: 0px;
+}
+
+.slick-list {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    height: 590px;
+}
+
+    .slick-list:focus {
+        outline: none;
+    }
+
+    .slick-list.dragging {
+        cursor: pointer;
+    }
+
+.slick-slider .slick-track,
+.slick-slider .slick-list {
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0);
+    -o-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
+
+.slick-track {
+    position: relative;
+    top: 0;
+    left: 0;
+    display: block;
+}
+
+    .slick-track:before,
+    .slick-track:after {
+        display: table;
+        content: '';
+    }
+
+    .slick-track:after {
+        clear: both;
+    }
+
+.slick-loading .slick-track {
+    visibility: hidden;
+}
+
+.slick-slide {
+    display: none;
+    float: left;
+    height: 100%;
+    min-height: 1px;
+}
+
+[dir='rtl'] .slick-slide {
+    float: right;
+}
+
+.slick-slide img {
+    /*display: block;*/
+}
+
+.slick-slide.slick-loading img {
+    display: none;
+}
+
+.slick-slide.dragging img {
+    pointer-events: none;
+}
+
+.slick-initialized .slick-slide {
+    display: block;
+}
+
+.slick-loading .slick-slide {
+    visibility: hidden;
+}
+
+.slick-vertical .slick-slide {
+    display: block;
+    height: auto;
+    border: 1px solid transparent;
+}
+
+.slick-slide > div:nth-child(2n+1) > li {
+    background: #F3F4F6;
+}
+
+.van-ban div ul li {
+    margin: 0;
+    padding: 12px 0;
+    border-top: solid 1px #ddd;
+}
+
+.van-ban ul li a {
+    padding: 0px 5px;
+}
+
+.van-ban div ul li a {
+    display: inline-block;
+    color: #161616;
+    font-size: 13px;
+    line-height: 22px;
+    font-weight: 500;
+    padding: 0px 10px;
+}
+
+    .van-ban div ul li a:hover {
+        text-decoration: none;
+    }
+
+.slick-slider .btn.left {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    margin-right: 3px;
+    width: 40px;
+    position: absolute;
+    right: 63px;
+    bottom: -34px;
+    color: #e20000;
+}
+
+.slick-slider .btn.right {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    width: 40px;
+    position: absolute;
+    right: 3px;
+    bottom: -34px;
+    color: #e20000;
+}
+
+.van-ban .btn {
+    min-width: 64px;
+}
+
+.btn-group-sm > .btn, .btn-sm {
+    padding: 5px 10px;
+    font-size: 12px;
+    line-height: 1.5;
+    border-radius: 3px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 3px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+    border-radius: 0px;
+    background-color: #fff;
+    border-color: #ccc;
+}
+
+.rightitem.van-ban {
+    height: 638px;
+}
+
+/* Khối tin tức trang chủ 1 ảnh, 2 tin*/
+.tintuc {
+    clear: both;
+    display: block;
+    border: 1px solid #f0f0f0;
+    border-top-color: rgb(240, 240, 240);
+    border-top-style: solid;
+    border-top-width: 1px;
+}
+
+    .tintuc .tieudetintuc {
+        margin-bottom: 0px;
+    }
+
+.tieudetintuc {
+    border-bottom: none !important;
+}
+
+
+.noidungtintuc {
+    display: block;
+    padding: 10px;
+}
+
+.HomeTopTitle {
+    clear: both;
+    width: inherit;
+    margin: 0 0 15px;
+}
+
+.crop {
+    float: left;
+    margin-right: 15px;
+}
+
+    .crop img {
+        background-position: center center;
+        height: 162px;
+        width: 282px;
+    }
+
+.qitieudechinh {
+    line-height: 23px;
+    font-size: 19px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+}
+
+.listitem .qitieudechinh {
+    line-height: 21px;
+    font-size: 13px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+}
+
+.qitieude_lr {
+    color: #000;
+}
+
+div.qimaxheight {
+    max-height: 80px;
+    overflow: hidden;
+}
+
+.sapo {
+    margin-bottom: 5px;
+    margin-top: 5px;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.space {
+    clear: both;
+    overflow: hidden;
+}
+
+.listleft {
+    float: left;
+}
+
+.listright {
+    float: right;
+}
+
+.listleft, .listright {
+    width: 49% !important;
+}
+
+.listitem:last-child {
+    border-bottom: 0px dotted #ddd;
+}
+
+.listitem:last-child {
+    border-bottom: 0 dotted #ddd;
+}
+
+.listitem {
+    /* background: transparent url('/Images/iconright.png') no-repeat scroll left 7px;*/
+    /*   margin-left: 5px;*/
+    padding-left: 10px;
+    text-align: left !important;
+}
+
+    .listitem a {
+        font-size: 14px;
+        line-height: 24px;
+        padding-left: 0;
+    }
+
+    .listitem a {
+        padding-right: 5px;
+    }
+
+.space hr {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border-top: 0px solid #eeeeee !important;
+}
+
+.lineFooter {
+    background: url(/Images/LineFooter.png);
+    height: 3px;
+    width: 100%
+}
+
+/*Khối quảng cáo 2 bên*/
+.ads-wrapper {
+    width: 125px;
+    position: absolute;
+    top: 0;
+}
+
+.adsRight {
+    left: 1110px;
+}
+
+.adsLeft {
+    
+    left: -175px;
+}
+/*
+    Khối video home
+*/
+.videoname {
+    background: #f5f5f5 none repeat scroll 0 0;
+    float: left;
+    padding: 0 2% 10px;
+    width: 100%;
+}
+
+.list_video {
+    float: left;
+    padding: 10px 0 0;
+    position: relative;
+    width: 100%;
+}
+
+.btn_control_tv_slider {
+    background: rgba(0, 0, 0, 0) url("/Images/icon_total_01.png") no-repeat scroll 0 0;
+    background-position-x: 0px;
+    background-position-y: 0px;
+    height: 28px;
+    position: absolute;
+    top: 21%;
+    width: 28px;
+    z-index: 9;
+}
+
+.prev_slider {
+    background-position: -1px -229px;
+    left: 1%;
+}
+
+.next_slider {
+    background-position: -27px -229px;
+    right: 1%;
+}
+
+.owl-carousel {
+    display: none;
+    position: relative;
+    width: 100%;
+}
+
+    .owl-carousel .owl-wrapper-outer {
+        overflow: hidden;
+        position: relative;
+        width: 100%;
+    }
+
+.thumb_image {
+    float: left;
+    position: relative;
+    width: 100%;
+}
+
+    .thumb_image img {
+        width: 100%;
+        border: 0 none;
+        font-size: 0;
+        line-height: 0;
+        max-width: 100%
+    }
+
+.item_slider {
+    clear: both;
+    padding: 0 5px;
+}
+
+.owl-item {
+    margin-right: 0px;
+    margin-left: 0px !important;
+}
+
+.owl-carousel .owl-wrapper, .owl-carousel .owl-item {
+    backface-visibility: hidden;
+    transform: translate3d(0px, 0px, 0px);
+}
+
+.owl-carousel .owl-item {
+    float: left;
+}
+
+/*Đọc nhiều nhất*/
+.s_LuotNghe {
+    text-align: right;
+    font-size: 24px;
+    right: 15px;
+    font-weight: 600;
+    float: right;
+}
+
+.docnhieu ul li a span {
+    float: left;
+    width: 85%;
+}
+
+/*Thống kê truy cập*/
+.thongke {
+    width: 100% !important;
+}
+
+.thss {
+    padding-left: 5px;
+    min-width: 125px;
+}
+    /*Style Thống kê truy cập*/
+    .thss span {
+        font-size: 13px;
+        font-weight: bold;
+        padding: 10px 22px;
+    }
+
+.thongke tr:nth-child(2n+1) {
+    background: #fafafa none repeat scroll 0 0;
+}
+
+.thongke tr {
+    border-bottom: 1px solid #f1f1f1;
+    border-top: 1px solid #f1f1f1;
+    margin: 0;
+    padding: 6px 5px;
+    height: 30px;
+}
+
+.thss span {
+    line-height: 30px;
+    margin: 0 0 10px;
+}
+
+    .thss span.tatca {
+        background: transparent url("/Images/5.jpg") no-repeat scroll left 10px;
+    }
+
+    .thss span.online {
+        background: transparent url("/Images/1.jpg") no-repeat scroll left 10px;
+    }
+
+    .thss span.homnay {
+        background: transparent url("/Images/1.jpg") no-repeat scroll left 10px;
+    }
+
+    .thss span.homqua {
+        background: transparent url("/Images/2.jpg") no-repeat scroll left 10px;
+    }
+
+    .thss span.tuannay {
+        background: transparent url("/Images/2.jpg") no-repeat scroll left 10px;
+    }
+
+    .thss span.tuantruoc {
+        background: transparent url("/Images/3.jpg") no-repeat scroll left 10px;
+    }
+
+    .thss span.thangnay {
+        background: transparent url("/Images/3.jpg") no-repeat scroll left 10px;
+    }
+
+    .thss span.thangtruoc {
+        background: transparent url("/Images/3.jpg") no-repeat scroll left 10px;
+    }
+
+.thss {
+    padding-left: 5px;
+    min-width: 125px;
+}
+
+/*Sub mega Menu*/
+ul#cssmenux {
+    width: 1024px !important;
+    max-width: 1024px !important;
+    margin-left: -30px !important;
+    margin-top: 12px !important;
+}
+
+.h5level0 a {
+    font-size: 13px !important;
+    font-weight: bold !important;
+    text-transform: unset !important;
+}
+
+.h5level0 {
+    border-bottom: 1px solid #EDEDED;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.h5level1 a {
+    font-weight: normal !important;
+}
+
+/*.h5level2 a {
+    font-size: 14px !important;
+    font-weight: 600;
+}*/
+
+.sub20 {
+    margin-left: 0px !important;
+}
+
+.sub30 {
+    margin-left: 20px !important;
+}
+
+.menu_xx {
+    font-size: 20px !important;
+}
+
+.maxhieght {
+    max-height: 150px !important;
+    overflow: auto;
+}
+
+.mnclear {
+    float: left;
+    height: 210px;
+    /* border-top: 2px solid #e7f151;*/
+    overflow: hidden;
+}
+
+p.navbar-item {
+    margin: 0px !important;
+}
+
+
+/* Custom Scrool bar*/
+/* width */
+
+::-webkit-scrollbar {
+    width: 1px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px gray;
+    border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #ccc;
+}
+
+    /* Handle on hover */
+    ::-webkit-scrollbar-thumb:hover {
+        background: #ccc;
+    }
+
+.shakira-box img {
+    width: 100% !important;
+    max-height: 250px;
+}
+
+.shakira-box {
+    width: 100% !important;
+}
+
+    .shakira-box .shakira-content {
+        width: 100%;
+        height: 24px;
+        top: -40px;
+        position: relative;
+        background-color: rgba(0,0,0,0.6);
+        color: #FFF;
+        transition: top 1s;
+        -moz-transition: top 1s;
+        -webkit-transition: top 1s;
+        -o-transition: top 1s;
+        -ms-transition: top 1s;
+    }
+
+    .shakira-box .shakira-content {
+        height: 60px !important;
+        top: -60px !important;
+        padding: 0px !important;
+        line-height: 22px;
+        font-size: 13px;
+    }
+
+.shakira-body {
+    line-height: 20px !important;
+    padding: 5px;
+    padding-top: 5px;
+    font-size: 16px;
+}
+
+.shakiraHeight {
+    height: 250px;
+    overflow: hidden;
+}
+
+.videohome li p a {
+    color: #3c3c3c;
+    font-weight: 600;
+}
+
+.s_CategoryHome_Title_Chilrent {
+    border-right: 1px solid #3a3a3c;
+    font-size: 12px;
+    font-weight: normal;
+    padding-left: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.s_CategoryHome_Title_Chilrent_noboderright {
+    font-size: 12px;
+    font-weight: normal;
+    padding-left: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+
+span.s_CategoryHome_Title_Chilrent:last-child {
+    border-right: 0px;
+}
+
+.submenu > li a:hover,
+.submenu > li:hover a {
+    transition: all 0.5s ease 0s;
+}
+/*.icon-arrow::after {  
+    float: right;
+}*/
+.qibootomSpace .col-sm-3 {
+    padding-right: 0px;
+    padding-left: 5px;
+}
+
+.qiluotdocchitiet {
+    border-radius: 5px;
+    padding: 0px;
+    font-size: 13px;
+    margin-top: 10px;
+}
+
+
+
+
+.qitab > li > a {
+    padding: 10px 7px 6px 7px;
+}
+
+
+
+
+
+.rssxemthem a {
+    font-weight: bold;
+    color: White;
+    text-transform: uppercase;
+    padding: 10px;
+    font-size: 11px;
+    border-radius: 7px;
+    margin-left: 10px;
+}
+
+#qitxtSearch {
+    padding: 0px 5px !important;
+    height: 30px !important;
+    font-size: 11px;
+    min-width: 200px;
+}
+
+.s_CategoryHome_Title_Parent {
+    font-size: 16px !important;
+    border-bottom: 0px;
+    font-weight: bold;
+    text-decoration:none;
+}
+
+
+a.s_CategoryHome_Title_Chilrent.dropdown-toggle {
+    border-right: 0px;
+}
+
+
+.qitopsubmenu a {
+    font-size: 13px;
+    padding: 0px;
+    font-weight: 500;
+}
+
+.qitopsubmenu:hover {
+    cursor: pointer;
+}
+
+
+
+
+
+.qisubtopmenu {
+    left: -100% !important;
+}
+
+.qifontbold-1 {
+    border-right: 1px solid #ccc !important;
+    font-size: 12px;
+    font-weight: 500;
+    padding-right: 10px !important;
+}
+
+    .qifontbold-1:last-child {
+        border-right: 0px;
+    }
+
+    .qifontbold-1:after {
+        display: none;
+    }
+
+
+/*a.nav-link.dropdown-toggle.my-0.py-0.qifontbold-1:hover, a.nav-link.dropdown-toggle.my-0.py-0.qifontbold-1:active {
+    padding-bottom: 5px !important;
+    padding-top: 10px !important;
+}*/
+.qibgtop1 > ul > li > a:hover, .qibgtop1 > ul > li > a:active {
+    color: #fff !important;
+}
+
+.qihomemenudoc {
+    font-size: 14px;
+    font-weight: bold;
+    padding: 11px 17px;
+    box-shadow: 0.2px 3px 0 0 #f6f6f6;
+    background: #004480;
+}
+
+a.nav-link.py-2.text-white {
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 12px;
+    padding-top: 12px !important;
+}
+
+a.nav-link2 {
+    font-size: 13px;
+}
+
+span#Footer_lstInfo {
+    font-family: initial;
+}
+
+i.fas.fa-bars {
+    font-size: 18px;
+}
+
+.LogoBotoom img {
+    max-width: 100% !important;
+}
+
+.qilinoimage a, .qilinoimage .time {
+    padding: 0px 10px;
+}
+
+h5 .qitieudechinh {
+    font-size: 13px;
+    line-height: 10px;
+    font-weight: 600;
+}
+
+.itemthongbao p {
+    margin-bottom: 5px;
+}
+
+.itemthongbao:last-child {
+    border-bottom: 0px;
+}
+
+.qilogobanner {
+    padding: 24px 10px;
+    float: left;
+}
+
+    .qilogobanner img {
+        max-width: 100px;
+        max-height: 102px;
+    }
+
+.NameChannelTitle {
+    float: left;
+    text-align: center;
+    padding-top: 30px;
+    width: 550px !important;
+    line-height: 36px;
+}
+
+.qcBanner {
+    float: right;
+    margin-top: 10px;
+    height: 130px;
+    overflow: hidden;
+}
+
+    .qcBanner a img {
+        max-height: 130px;
+        max-width: 450px;
+    }
+
+.NameSiteTop1 {
+    color: #186bcc;
+    font-size: 16px;
+    font-weight: 600;
+    padding-bottom: 20px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.NameSiteTop2 {
+    color: #fe0002;
+    font-size: 26px;
+    font-weight: 800;
+    padding-left: 1px;
+    text-align: center;
+    text-shadow: 2px 0 #d09e69;
+    text-transform: uppercase;
+}
+
+.border .listitem {
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+}
+
+    .border .listitem:last-child {
+        border-bottom: 0px solid #ddd;
+    }
+
+li.iconhay > a {
+    color: #fff;
+    border-radius: 3px;
+}
+
+li.iconhay {
+    margin-right: 1px;
+    margin-top: -8px;
+}
+
+.iconhay > a {
+    padding: 4px 13px !important;
+}
+
+.icon-header .fab {
+    padding-top: 10px;
+}
+
+.icon-header {
+    font-size: 17px !important;
+}
+
+.icon-header-f {
+    background: #3b5999;
+}
+
+.icon-header-g {
+    background: #dd4a38;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+}
+
+.qibgmenutop {
+    height: 38px;
+}
+
+.fb-page.fb_iframe_widget {
+    width: 100%;
+    margin: 10px 10px 10px 0px;
+    text-align: center;
+}
+
+.tieudechinhhome a {
+    padding: 10px 0px;
+    color: #122e5c;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.titevideolisthome a {
+    color: #1c1c1c;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 21px;
+    display:inline-block;
+}
+
+.qimaxheighthome {
+    max-height: 100px;
+    overflow: hidden;
+}
+
+.qigd3right {
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+.tieudechinh a {
+    padding: 10px 0px;
+    color: #161616;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 26px;
+}
+
+.qigd3right:last-child {
+    border-bottom: 0px solid #ddd;
+}
+
+/*Cấu hình cho tab home top*/
+.qitabtop > li > a:hover {
+    padding: 8px 7px 6px 7px;
+    color: #ccc !important;
+}
+
+.qitabtop li.nav-item {
+    padding: 0px;
+    /* display: block; */
+}
+
+.qitabtop > li > a {
+    padding: 10px 7px 6px 7px;
+    color: #3c3c3c;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+    .qitabtop > li.active > a, .qitabtop > li.active > a:focus, .qitabtop > li.active > a:hover, .qitabtop > li > a:active {
+        color: #0e57c3 !important;
+        border-top: 2px;
+    }
+
+.tab_tieudetop {
+    background: #eee;
+    border-bottom: none;
+    margin-bottom: 0px !important;
+}
+
+.qitabtop .nav-link.active {
+    color: #0e57c3 !important;
+    border-color: #eee !important;
+    background-color: #eee !important;
+    border-top: 2px solid #0e57c3 !important;
+    border-radius: 0px;
+    padding-top: 8px;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: 7px;
+    margin-right: 7px;
+}
+
+.itemHomeTop a {
+    display: inline-block;
+    color: #161616;
+    font-size: 13px;
+    line-height: 22px;
+    font-weight: 500;
+}
+
+.itemHome a {
+    color: #3c3c3c;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.itemHomeTop {
+    border-bottom: 1px solid #ccc;
+    padding: 6px 10px;
+}
+
+.itemHome {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 5px;
+}
+
+.itemmain {
+    border-bottom: 1px solid #ccc;
+}
+
+
+.itemHome:last-child {
+    border-bottom: 0px solid #ccc;
+}
+
+
+.itemHomeTop:last-child {
+    border-bottom: 0px solid #ccc;
+}
+
+.qitabcontent {
+    height: 475px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.qilitop:last-child  .qifontbold-1 {
+    border-right: 0px !important;
+}
+
+.qiimagemain img {
+    /*max-height: 150px;*/
+    overflow: auto;
+    width: 100%;
+    padding-left: .5rem !important;
+}
+
+.qiimgrelate img {
+    /*height:100px;*/
+    overflow: auto;
+    width: 100%;
+}
+
+.qiheightmain {
+    max-height: 178px;
+    overflow: hidden;
+}
+
+.qiheightItem {
+    max-height: 95px;
+    overflow: hidden;
+}
+
+.dropdown-toggle:hover .dropdown-menu {
+    display: block !important;
+}
+
+
+.dropright .dropdown-toggle::after {
+    vertical-align: 0;
+    float: right;
+    margin-top:5px;
+}
+
+.qilist.dropdown.dropright.cap0:hover .dropdown-menu.cap0, .qilist.dropdown.dropright.cap0:active .dropdown-menu.cap0, .qilist.dropdown.dropright.cap0:focus {
+    display: block !important;
+    margin-top: 0px !important;
+    margin-left: 0px !important;
+}
+
+.qilist.dropdown.dropright.cap1:hover .dropdown-menu.cap1, .qilist.dropdown.dropright.cap1:active .dropdown-menu.cap1, .qilist.dropdown.dropright.cap1:focus {
+    display: block !important;
+    margin-top: 0px !important;
+    margin-left: 0px !important;
+}
+
+.qilist.dropdown.dropright.cap2:hover .dropdown-menu.cap2, .qilist.dropdown.dropright.cap2:active .dropdown-menu.cap2, .qilist.dropdown.dropright.cap2:focus {
+    display: block !important;
+    margin-top: 0px !important;
+    margin-left: 0px !important;
+}
+.qilist.dropdown.dropright.cap3:hover .dropdown-menu.cap3, .qilist.dropdown.dropright.cap3:active .dropdown-menu.cap3, .qilist.dropdown.dropright.cap3:focus {
+    display: block !important;
+    margin-top: 0px !important;
+    margin-left: 0px !important;
+}
+
+.menucap0 {
+    min-width: 200px;
+}
+.qiitemsexpan
+{
+    padding-left:0px;
+}
+.btnqi {
+    background-color: #006fc1;
+    color: white;
+    border-radius: 6px;
+}
+    .btnqi:hover {
+        background-color: #ff6a00;
+        color: white;
+    }
+.qitopsubmenu {
+    padding: 10px 50px !important;
+}
+.table.table-striped.table-hover.table-bordered.px-5 {
+    border-bottom: 0px !important;
+}
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: #fafafa;
+}
+.qimenungangsub
+{
+    font-size:14px;
+    font-weight:normal;
+    padding:10px;
+}
+#sidebar {
+    z-index: 1;
+}
+.qimenu {
+   
+    z-index: 10;
+}
+span.bacham {
+    color: #888;
+    font-size: 13px;
+    font-weight: normal;
+    padding-left: 5px;
+}
+div#amazingslider-12 {
+    width: 548px !important;
+}
+p.summary {
+    font-size: 15px;
+}
+.s_CategoryHome_Title_Chilrent.dropdown-toggle:hover .dropdown-menu
+{
+    display:block;
+}
+.slick-slide li > p.time.my-1 {
+    padding-left: 10px;
+}
+.containerqibanner {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1110px;
+}
+.mntopleft340 {
+
+    margin-left: -340px !important;
+}
+.navbar .dropdown-item {
+    padding: .25rem 0.5rem;
+}
+.navbar .icon-arrow:after {
+    padding-left: 5px;
+   /* margin-top: 5px;
+    float: right;*/
+}
+
+.navbar-nav .dropdown-item
+{
+    font-size:14px;
+    font-weight:normal;
+}
+
+.maxSizeBannerVideo
+{
+    max-height:600px !important;
+}
+.qifooterbgcolor
+{
+    background-image:url("/Images/BG.png");
+}
+.infoFooter p
+{
+    margin-bottom:5px !important;
+}
+ /*show hot line home*/
+.hotline-footer {
+    position: fixed;
+    right: 130px;
+    z-index: 999;
+    bottom: 30px;
+    background: #00afef;
+    padding: 7px 10px;
+    color: #fff;
+    border-radius: 38px;
+    /* height: 134px; */
+}
+
+.hotline-footer_right {   
+    right: 65px !important;
+}
+    .hotline-footer .hot-phone {
+        position: relative;
+    }
+.hotline-footer {
+    color: #fff;
+}
+    .hotline-footer .hot-phone img {
+        width: 45px;
+    }
+    .hotline-footer .hot-phone .number-phone {
+        vertical-align: middle;
+        display: inline-block;
+    }
+.inline-block {
+    display: inline-block !important;
+}
+.hotline-footer .hot-phone a {
+    color: #fff;
+    vertical-align: middle;
+    font-size: 24px;
+    padding-left: 15px;
+    padding-right: 20px;
+    font-weight: bold;
+}
+
+.dropdown-menu.qisubtopmenu {
+    z-index: 9999;
+}
+.p-15 {
+    padding: 15px;
+}
+.require{
+    color:red;
+
+}
+.domainrss {
+    font-weight: bold;
+    color: var(--mau-md);
+    font-size:11px;
+    text-decoration: none;
+}
+.tongtruycap {
+    margin-top: 10px;
+    text-align: center;
+    padding-top:8px;
+    padding-bottom:8px;
+}
+.item-tongtruycap {
+    background: url('/Images/bgtruycapall.png');
+    width: 20px;
+    height: 27px;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    padding:1px 4px;
+    
+}
+ul li.qilitop:last-child  a.qifontbold-1 {
+    border-right: 0px !important;
+}
