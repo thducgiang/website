@@ -1,0 +1,228 @@
+﻿/*GridViewCSS*/
+#MainContent {
+  
+    padding-right: 2px;
+}
+.GridViewStyle {
+    font-size: 1em;
+    table-layout: auto;
+    border-collapse: collapse;
+    border: #009AD9 3px solid;
+    width: 100%;
+    height: 500px;
+}
+
+.GridViewStyle2 {
+    Border-Color: #3366CC;
+    table-layout: auto;
+    border-collapse: collapse;
+    border: #e1e1e1 1px solid;
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+}
+
+/*Header and Pager styles*/
+
+.HeaderStyle, .PagerStyle /*Common Styles*/ {
+    background-image: url(images/HeaderGlass.jpg);
+    background-position: center;
+    background-repeat: repeat-x;
+    background-color: White;
+    padding-bottom: 5px;
+    font-size: 1em;
+    text-align: center;
+}
+
+.HeaderStyle2, .PagerStyle2 /*Common Styles*/ {
+    background-color: White;
+    color: #004175;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+
+    .HeaderStyle2 th, .HeaderStyle2 a, .PagerStyle2 a {
+        color: #004175;
+        font-weight: bold;
+        vertical-align: middle;
+        font-size: 1em;
+        text-align: center;
+        padding: 5px;
+    }
+
+    .HeaderStyle2 th {
+        /*background-image: url(Image/thead-khoikhac.png);
+        padding: 13px;
+        white-space: nowrap;*/
+    }
+
+.HeaderStyle th {
+    font-family: Tahoma;
+    padding: 5px;
+    color: #ffffff;
+}
+
+.HeaderStyle a {
+    color: #ffffff;
+    display: block;
+    font-weight: bold;
+    font-family: Tahoma;
+    font-size: 11px;
+    text-align: center;
+}
+
+.PagerStyle table {
+    text-align: center;
+    margin: auto;
+}
+
+    .PagerStyle table td {
+        border: 0px;
+        padding: 5px;
+    }
+
+.PagerStyle td {
+    border-top: #1d1d1d 3px solid;
+}
+
+.PagerStyle a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 2px 10px 2px 10px;
+    border-top: solid 1px #777777;
+    border-right: solid 1px #333333;
+    border-bottom: solid 1px #333333;
+    border-left: solid 1px #777777;
+}
+
+
+.PagerStyle span {
+    font-weight: bold;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 2px 10px 2px 10px;
+}
+
+/*RowStyles*/
+
+.RowStyle td, .AltRowStyle td, .SelectedRowStyle td, .EditRowStyle td /*Common Styles*/ {
+    padding: 1px 4px 1px 2px;
+    border: solid 1px #D0D7E5;
+}
+
+.RowStyle td {
+    background-color: white;
+    padding-left: 5px;
+}
+
+.AltRowStyle td {
+    background-color: #E6F5FB;
+}
+
+.SelectedRowStyle td {
+    background-color: #ffff66;
+}
+
+
+/*PagerStyles for DetailView in Edit Mode*/
+.PagerStyleEdit table {
+    text-align: center;
+    margin: auto;
+}
+
+    .PagerStyleEdit table td {
+        border: 0px;
+        padding: 5px;
+    }
+
+.grvScheduleHeader {
+    vertical-align: middle;
+    padding-top: 5px;
+}
+
+.PagerStyleEdit a {
+    color: #008000;
+    font-size: small;
+    padding: 2px 10px 2px 10px;
+    border-top: solid 1px #A7DE92;
+    border-right: solid 1px #01971C;
+    border-bottom: solid 1px #01971C;
+    border-left: solid 1px #A7DE92;
+}
+
+.PagerStyleEdit span {
+    font-weight: bold;
+    font-size: small;
+    color: #008000;
+    text-decoration: none;
+    padding: 2px 10px 2px 10px;
+}
+
+.GridViewStyle2 td {
+    padding: 6px 12px;
+    border: 1px solid #dddddd;
+}
+
+    .GridViewStyle2 td span {
+    }
+.table > tbody > tr > td, .table > tbody > tr > th, .table > tfoot > tr > td, .table > tfoot > tr > th, .table > thead > tr > td, .table > thead > tr > th {
+    padding: 8px;
+    line-height: 1.42857143;
+    vertical-align: top;
+    border: 1px solid #ddd;
+}
+
+/*phân trang dữ liệu*/
+.pagination-ys {
+    border-radius: 4px;
+    margin: 20px 0;
+    padding-left: 0;
+}
+
+    .pagination-ys table > tbody > tr > td {
+        display: contents;
+    }
+
+        .pagination-ys table > tbody > tr > td > a, .pagination-ys table > tbody > tr > td > span {
+            background-color: #ffffff;
+            border: 1px solid #dddddd;
+            color: #337ab7;
+            float: left;
+            line-height: 1.42857;
+            margin-left: -1px;
+            padding: 8px 12px;
+            position: relative;
+            text-decoration: none;
+        }
+
+        .pagination-ys table > tbody > tr > td > span {
+            background-color: #337ab7;
+            border: 1px solid #dddddd;
+            color: #fff;
+            cursor: default;
+            float: left;
+            line-height: 1.42857;
+            padding: 8px 12px;
+            position: relative;
+            text-decoration: none;
+            z-index: 2;
+        }
+
+        .pagination-ys table > tbody > tr > td:first-child > a, .pagination-ys table > tbody > tr > td:first-child > span {
+            border-bottom-left-radius: 4px;
+            border-top-left-radius: 4px;
+            margin-left: 0;
+        }
+
+        .pagination-ys table > tbody > tr > td:last-child > a, .pagination-ys table > tbody > tr > td:last-child > span {
+            border-bottom-right-radius: 4px;
+            border-top-right-radius: 4px;
+        }
+
+        .pagination-ys table > tbody > tr > td > a:hover, .pagination-ys table > tbody > tr > td > span:hover, .pagination-ys table > tbody > tr > td > a:focus, .pagination-ys table > tbody > tr > td > span:focus {
+            background-color: #eeeeee;
+            border-color: #dddddd;
+            color: #97310e;
+        }

@@ -1,0 +1,110 @@
+﻿#MainContent {
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.qisubmenubg {
+    background-color: #fafafa;
+}
+.qisubmenubg a {
+        color:#808080;
+
+}
+h5.qititle
+{
+    color:#000000;
+    font-weight:600;
+    font-size:20px;
+    line-height:24px;
+}
+
+p.qisummary {
+    color:#333;
+    font-weight:normal;
+}
+
+#yw5 {
+    display: inline-block;
+}
+
+.pagination {
+    padding-left: 0;
+    margin: 20px 0;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+    .pagination > li {
+        display: inline;
+    }
+
+        .pagination > li > a,
+        .pagination > li > span {
+            position: relative;
+            float: left;
+            padding: 6px 12px;
+            line-height: 1.42857143;
+            text-decoration: none;
+            color: #337ab7;
+            background-color: #ffffff;
+            border: 1px solid #dddddd;
+            margin-left: -1px;
+        }
+
+        .pagination > li:first-child > a,
+        .pagination > li:first-child > span {
+            margin-left: 0;
+            border-bottom-left-radius: 4px;
+            border-top-left-radius: 4px;
+        }
+
+        .pagination > li:last-child > a,
+        .pagination > li:last-child > span {
+            border-bottom-right-radius: 4px;
+            border-top-right-radius: 4px;
+        }
+
+        .pagination > li > a:hover,
+        .pagination > li > span:hover,
+        .pagination > li > a:focus,
+        .pagination > li > span:focus {
+            color: #23527c;
+            background-color: #eeeeee;
+            border-color: #dddddd;
+        }
+
+    .pagination > .active > a,
+    .pagination > .active > span,
+    .pagination > .active > a:hover,
+    .pagination > .active > span:hover,
+    .pagination > .active > a:focus,
+    .pagination > .active > span:focus {
+        z-index: 2;
+        color: #ffffff;
+        background-color: #337ab7;
+        border-color: #337ab7;
+        cursor: default;
+    }
+
+.PagingWrapper {
+    text-align: center;
+}
+.qisubmenu a.qihome_tieude {
+    font-size: 14px;
+    font-weight: normal;
+}
+.qisubmenu:first-child {
+    padding-top: 15px;
+}
+.qisubmenu:last-child {
+    padding-bottom: 15px;
+}
+.qisubmenu
+{
+    padding-top:5px;
+}
+.qiborder
+{
+    border-radius:5px;
+}
